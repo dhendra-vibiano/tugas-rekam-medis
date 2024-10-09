@@ -86,4 +86,5 @@ Route::middleware(['auth', 'role:apoteker'])->group(function () {
     Route::post('/pharmacist/medications', [PharmacistController::class, 'storeMedication'])->name('pharmacist.medications.store');
 });
 
+// tes
 // Tambahkan rute lain untuk role lain jika diperlukan
